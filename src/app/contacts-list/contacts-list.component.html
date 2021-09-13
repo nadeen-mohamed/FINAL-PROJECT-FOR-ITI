@@ -1,0 +1,24 @@
+
+  
+  
+  <div class="testimonial">
+   <h2 style="text-align:center; color:orange; padding-bottom:5px;" >Our Team</h2>
+           <div class="small-container">
+            
+               <div class="row">
+                <div *ngFor="let contact of allContacts; index as i;" class="col-4 card">
+                    <img class="img-thumbnail"[src]="contact.avatar" style="width:100%" />
+                    <div class="card-body text-center">
+                        <h4  class="card-title">{{contact.first_name}}</h4>
+                        <p class="card-text">{{contact.email}}</p>
+                        <a [routerLink]="['/contactprofile', contact.id]" class="button">contact profile</a>
+                    </div>
+                </div>
+                 
+                  
+                   </div>
+                  
+                   
+               </div>
+           </div>
+       

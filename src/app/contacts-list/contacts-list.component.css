@@ -1,0 +1,38 @@
+
+ 
+  .card {
+  
+    color:orange;
+  
+  }
+  
+  
+  
+  .title {
+    color: #6f42c1;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #6f42c1;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: orange;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+  

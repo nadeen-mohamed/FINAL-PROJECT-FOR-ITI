@@ -1,0 +1,24 @@
+
+ 
+  .card {
+  
+    color:orange;
+  
+  }
+  
+  
+  
+  .title {
+    color: #6f42c1;
+  }
+  
+  
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+  
